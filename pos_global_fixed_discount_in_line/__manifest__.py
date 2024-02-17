@@ -3,7 +3,7 @@
     "summary": "Order discount Fixed/Percentagein lines instead of discount product",
     "version": "16.0.1.0.0",
     "category": "Point Of Sale",
-    "author": "Salah, Ilyas, Ooops404, Odoo Community Association (OCA)",
+    "author": "Salah aldeen, Ilyas, Ooops404, Odoo Community Association (OCA)",
     "website": "https://github.com/OCA/pos",
     "license": "AGPL-3",
     "depends": [
