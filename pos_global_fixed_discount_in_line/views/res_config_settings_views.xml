@@ -15,12 +15,12 @@
             </xpath>
             <xpath expr="////field[@name='pos_discount_pc']/.." position="after">
                     <div>
-                        <field name="pos_global_discount_in_line" />
                         <label for="pos_global_discount_in_line" />
+                        <field name="pos_global_discount_in_line" />
                     </div>
-                    <div>
-                        <field name="pos_global_fixes_discount_in_line" />
+                    <div attrs="{'invisible': [('pos_global_discount_in_line','=',False)]}">
                         <label for="pos_global_fixes_discount_in_line" />
+                        <field name="pos_global_fixes_discount_in_line" />
                     </div>
                 </xpath>
         </field>
