@@ -1,6 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# 	* pos_global_discount_in_line
+# 	* pos_global_fixed_discount_in_line
 #
 msgid ""
 msgstr ""
@@ -18,88 +18,88 @@ msgstr ""
 "&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
 "X-Generator: Poedit 3.4.2\n"
 
-#. module: pos_global_discount_in_line
-#: model:ir.model.fields,field_description:pos_global_discount_in_line.field_pos_config__global_discount_in_line
-#: model:ir.model.fields,field_description:pos_global_discount_in_line.field_res_config_settings__pos_global_discount_in_line
-#: model_terms:ir.ui.view,arch_db:pos_global_discount_in_line.pos_confi_dicount_pos_config_view_form
+#. module: pos_global_fixed_discount_in_line
+#: model:ir.model.fields,field_description:pos_global_fixed_discount_in_line.field_pos_config__global_discount_in_line
+#: model:ir.model.fields,field_description:pos_global_fixed_discount_in_line.field_res_config_settings__pos_global_fixed_discount_in_line
+#: model_terms:ir.ui.view,arch_db:pos_global_fixed_discount_in_line.pos_confi_dicount_pos_config_view_form
 msgid "Add Discount in Line"
 msgstr "توزيع الخصم الاجمالي على بنود الفاتورة"
 
-#. module: pos_global_discount_in_line
-#: model_terms:ir.ui.view,arch_db:pos_global_discount_in_line.pos_confi_dicount_pos_config_view_form
+#. module: pos_global_fixed_discount_in_line
+#: model_terms:ir.ui.view,arch_db:pos_global_fixed_discount_in_line.pos_confi_dicount_pos_config_view_form
 msgid "Apply the global discount as a fixed amount discount"
 msgstr ""
 "عند تفعيل هذا الخيار, سيطبق خصم مبلغ ثابت على اجمالي الفاتورة بدلاً عن خصم "
 "النسبة"
 
-#. module: pos_global_discount_in_line
+#. module: pos_global_fixed_discount_in_line
 #. odoo-javascript
-#: code:addons/pos_global_discount_in_line/static/src/js/GlobalLineDiscount.js:0
+#: code:addons/pos_global_fixed_discount_in_line/static/src/js/GlobalLineDiscount.js:0
 #, python-format
 msgid "Discount Percentage"
 msgstr "خصم نسبة مئوية"
 
-#. module: pos_global_discount_in_line
-#: model_terms:ir.ui.view,arch_db:pos_global_discount_in_line.pos_confi_dicount_pos_config_view_form
+#. module: pos_global_fixed_discount_in_line
+#: model_terms:ir.ui.view,arch_db:pos_global_fixed_discount_in_line.pos_confi_dicount_pos_config_view_form
 msgid "Distributing the Global discount percentage on the order items equally"
 msgstr ""
 "توزيع الخصم الإجمالي (نسبة/مبلغ ثابت) على بنود فاتورة نقطة البيع بنسب "
 "متساوية"
 
-#. module: pos_global_discount_in_line
+#. module: pos_global_fixed_discount_in_line
 #. odoo-javascript
-#: code:addons/pos_global_discount_in_line/static/src/js/GlobalLineDiscount.js:0
+#: code:addons/pos_global_fixed_discount_in_line/static/src/js/GlobalLineDiscount.js:0
 #, python-format
 msgid "Fixed Discount Amount"
 msgstr "خصم مبلغ ثابت"
 
-#. module: pos_global_discount_in_line
-#: model_terms:ir.ui.view,arch_db:pos_global_discount_in_line.pos_confi_dicount_pos_config_view_form
+#. module: pos_global_fixed_discount_in_line
+#: model_terms:ir.ui.view,arch_db:pos_global_fixed_discount_in_line.pos_confi_dicount_pos_config_view_form
 msgid "Fixed amount Discount"
 msgstr "خصم مبلغ ثابت"
 
-#. module: pos_global_discount_in_line
-#: model:ir.model.fields,field_description:pos_global_discount_in_line.field_pos_config__global_fixes_discount_in_line
-#: model:ir.model.fields,field_description:pos_global_discount_in_line.field_res_config_settings__pos_global_fixes_discount_in_line
+#. module: pos_global_fixed_discount_in_line
+#: model:ir.model.fields,field_description:pos_global_fixed_discount_in_line.field_pos_config__global_fixes_discount_in_line
+#: model:ir.model.fields,field_description:pos_global_fixed_discount_in_line.field_res_config_settings__pos_global_fixes_discount_in_line
 msgid "Fixed amount Discount?"
 msgstr "خصم مبلغ ثابت؟"
 
-#. module: pos_global_discount_in_line
+#. module: pos_global_fixed_discount_in_line
 #. odoo-javascript
-#: code:addons/pos_global_discount_in_line/static/src/js/GlobalLineDiscount.js:0
+#: code:addons/pos_global_fixed_discount_in_line/static/src/js/GlobalLineDiscount.js:0
 #, python-format
 msgid "Invalid Discount Amount"
 msgstr "مبلغ الخصم غير صحيح"
 
-#. module: pos_global_discount_in_line
+#. module: pos_global_fixed_discount_in_line
 #. odoo-javascript
-#: code:addons/pos_global_discount_in_line/static/src/js/GlobalLineDiscount.js:0
+#: code:addons/pos_global_fixed_discount_in_line/static/src/js/GlobalLineDiscount.js:0
 #, python-format
 msgid "Invalid Discount percentage"
 msgstr "نسبة الخصم غير صحيحة"
 
-#. module: pos_global_discount_in_line
-#: model:ir.model,name:pos_global_discount_in_line.model_pos_config
+#. module: pos_global_fixed_discount_in_line
+#: model:ir.model,name:pos_global_fixed_discount_in_line.model_pos_config
 msgid "Pos Config"
 msgstr "اعدادات نقطة البيع"
 
-#. module: pos_global_discount_in_line
-#: model:ir.model,name:pos_global_discount_in_line.model_res_config_settings
+#. module: pos_global_fixed_discount_in_line
+#: model:ir.model,name:pos_global_fixed_discount_in_line.model_res_config_settings
 msgid "Res Config Settings"
 msgstr "الاعدادات العامة"
 
-#. module: pos_global_discount_in_line
+#. module: pos_global_fixed_discount_in_line
 #. odoo-javascript
-#: code:addons/pos_global_discount_in_line/static/src/js/GlobalLineDiscount.js:0
+#: code:addons/pos_global_fixed_discount_in_line/static/src/js/GlobalLineDiscount.js:0
 #, python-format
 msgid "The discount amount cannot exceed the subtotal. or Negative Value."
 msgstr ""
 "لا يمكن لمبلغ الخصم أن يتجاوز الإجمالي غير شامل الضريبة للفاتورة أو أن يكون "
 "قيمة سالبة."
 
-#. module: pos_global_discount_in_line
+#. module: pos_global_fixed_discount_in_line
 #. odoo-javascript
-#: code:addons/pos_global_discount_in_line/static/src/js/GlobalLineDiscount.js:0
+#: code:addons/pos_global_fixed_discount_in_line/static/src/js/GlobalLineDiscount.js:0
 #, python-format
 msgid "The discount percentage cannot exceed the 100%. or Negative Value."
 msgstr "لا يمكن لنسبة الخصم أن تتجاوز 100% أو أن تكون قيمة سالبة."

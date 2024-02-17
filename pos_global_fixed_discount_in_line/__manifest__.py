@@ -11,7 +11,7 @@
     ],
     "assets": {
         "point_of_sale.assets": [
-            "pos_global_discount_in_line/static/src/js/GlobalLineDiscount.js",
+            "pos_global_fixed_discount_in_line/static/src/js/GlobalLineDiscount.js",
         ],
     },
     "data": ["views/res_config_settings_views.xml"],

@@ -1,5 +1,5 @@
 // نفس االسابق لكن باضفة خيار خصم نسبة او ثابت من شااشة الاعادادات
-odoo.define("pos_global_discount_in_line.GlobalLineDiscount", function (require) {
+odoo.define("pos_global_fixed_discount_in_line.GlobalLineDiscount", function (require) {
     "use strict";
 
     const DiscountButton = require("pos_discount.DiscountButton");
