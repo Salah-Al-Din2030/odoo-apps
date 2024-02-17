@@ -1,7 +1,7 @@
 {
     "name": "Point of Sale - Global Fixed/Percentagein Discount in Line",
     "summary": "Order discount Fixed/Percentagein lines instead of discount product",
-    "version": "16.0.1.0.0",
+    "version": "15.0.1.0.0",
     "category": "Point Of Sale",
     "author": "Salah, Ilyas, Ooops404, Odoo Community Association (OCA)",
     "website": "https://github.com/OCA/pos",
